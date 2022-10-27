@@ -16,6 +16,6 @@ In this project use Docker Compose to run a simple PHP application in an Apache 
 - Basic HTML knowledge.
 
 ##### *Description* #####
-**1.** Create a *docker-compose* file with the settings of an *Apache HTTP Server* (httpd);
-**2.** Specify in the *docker-compose* file the location where the application files will be. The application can be a simple *Hello World*; 
-**3.** Publish the *docker-compose* file and the application to a repository on *GitHub*.
+1. Create a *docker-compose* file with the settings of an *Apache HTTP Server* (httpd);
+2. Specify in the *docker-compose* file the location where the application files will be. The application can be a simple *Hello World*; 
+3. Publish the *docker-compose* file and the application to a repository on *GitHub*.

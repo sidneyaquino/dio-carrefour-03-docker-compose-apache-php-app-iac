@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  php-apache-alpine:
+    image: webdevops/php-apache:alpine-php7
+    ports:
+      - 80:80
+    volumes:
+      - /docker/data/php-apache-alpine:/app
+    networks:
+      - my-net
+networks:
+   my-net:
+     driver: bridge

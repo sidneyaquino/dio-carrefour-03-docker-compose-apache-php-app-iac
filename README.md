@@ -70,7 +70,7 @@ git clone https://github.com/sidneyaquino/dio-carrefour-03-docker-compose-apache
 ### :zap: Usage.
 In the projet folder execute the command:
 ```bash
-sudo docker compose run
+sudo docker-compose up -d
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
